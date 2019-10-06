@@ -38,6 +38,7 @@ function getCookie(name) {
 
 function App() {
 
+
 	useEffect(()=>{
 		console.log('im app')
 		if(getCookie('account')){
